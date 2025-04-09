@@ -1,0 +1,17 @@
+{
+    "name": "metasploit-rpc-proxy",
+    "version": "1.0.0",
+    "description": "Proxy server for Metasploit RPC API",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "axios": "^0.27.2",
+        "axios-retry": "^4.5.0",
+        "cors": "^2.8.5",
+        "express": "^4.18.1",
+        "metasploit-rpc-proxy": "file:",
+        "msgpack-lite": "^0.1.26"
+    }
+}
